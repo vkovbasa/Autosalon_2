@@ -1,0 +1,61 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* booked */
+.booked-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booked-list h2 {
+    margin-bottom: 10px;
+}
+
+.booked-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.booked-list th,
+.booked-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.booked-list th {
+    background-color: #f2f2f2;
+}
+
+.booked-list tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.booked-list button {
+    margin-right: 5px;
+}

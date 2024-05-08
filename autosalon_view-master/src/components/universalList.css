@@ -1,0 +1,71 @@
+.universal-list {
+    margin-bottom: 20px;
+}
+
+.universal-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.universal-list th,
+.universal-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.universal-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.universal-list .add-item {
+    margin-top: 20px;
+}
+
+.universal-list .add-item input[type="text"] {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.universal-list .add-item button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.universal-list .add-item button:hover {
+    background-color: #45a049;
+}
+
+.universal-list button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.universal-list button:hover {
+    background-color: #0c7cd5;
+}
+
+.universal-list .edit-mode input[type="text"] {
+    background-color: #f2f2f2;
+}
+
+.universal-list .edit-mode button {
+    display: none;
+}
+
+.universal-list .edit-mode button:first-child {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.date-picker {
+    width: 500px;
+}
